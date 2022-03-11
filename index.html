@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'> <!-- Used for the font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used for the search symbol -->
+    <link rel="stylesheet" href="/swim-england.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- enables jQuery -->
+    <script src="/swim-england.js"></script>
+
+    <title>2022 Swimming Gala</title>
+  </head>
+  
+  <body>
+
+    <div class="header">
+      <div class="row">
+        <div class="logo-container">
+            <img class="logo" src="https://d1s9j44aio5gjs.cloudfront.net/2017/02/Swim_England_500x159px.gif" alt="Swim England">
+        </div>
+        <div class="introduction">
+            <h1 class="primary-heading">Swim England</h1>
+            <p class="primary-slogan">A nation swimming</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="navBar">
+      <ul>
+        <li><a class="active">Home</a></li>
+        <li><a>News</a></li>
+        <li><a>About Us</a></li>
+        <li><a>Contact</a></li>
+        <div class="search-container">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </ul>
+    </div>
+
+    <div id="mainContent">
+      <h2 class="headingText">2022 Swimming Gala</h2>
+      <p>Swim England are delighted to announce that we will be holding a swimming gala later this year! This event will be for one day only, with various races planned throughout and certificates handed out to every participant. 
+        All skill levels are welcome and further details on the venue & races being held will be announced at a later date.
+      </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu turpis est. Vestibulum porta eu urna sit amet varius. Ut egestas, metus nec consequat consectetur, risus nisl tempor tellus, id vestibulum nulla ante in ante. Aliquam gravida quam ultricies mollis pellentesque. Vivamus at vestibulum sem. Cras tempus nisl eget tortor molestie, eget egestas quam iaculis. Donec dapibus, purus id faucibus euismod, odio mi gravida quam, nec consectetur felis turpis sed nunc. Vestibulum non neque lorem.</p>
+
+      <div id="summary">
+        <h3 class="headingText">Event Summary</h3>
+        <ul>
+          <li><strong>Venue</strong> TBC</li>
+          <li><strong>Event Date</strong> TBC</li>
+          <li>Eligible for all swimmers aged 14-25</li>
+        </ul>
+      </div>
+
+      <div id="faq_accordion">
+        <h3 class="headingText">Frequently Asked Questions</h3>
+        <button class="accordion">Are there any entry requirements?</button>
+        <div class="panel">
+          <p>To signup for this event, you must be aged between 14-25 and associated with a Swim England affiliated club. Before the event, we will ask you to register your details online so we can confirm this. Places are limited so make sure to register your interest using the button at the bottom of this page!</p>
+        </div>
+    
+        <button class="accordion">When will more details about the event be available?</button>
+        <div class="panel">
+          <p>We currently can&#39;t confirm when more details will be announced. However, if you register interest by submitting your email we will make sure you are one of the first to know about any updates.</p>
+        </div>
+    
+        <button class="accordion">Will we need to register for the event?</button>
+        <div class="panel">
+          <p>Yes, you will need to register your details online to verify that you are associated with a Swim England affiliated club. Registration will be available at a later date.</p>
+        </div>
+      </div>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu turpis est. Vestibulum porta eu urna sit amet varius. Ut egestas, metus nec consequat consectetur, risus nisl tempor tellus, id vestibulum nulla ante in ante. Aliquam gravida quam ultricies mollis pellentesque. Vivamus at vestibulum sem. Cras tempus nisl eget tortor molestie, eget egestas quam iaculis. Donec dapibus, purus id faucibus euismod, odio mi gravida quam, nec consectetur felis turpis sed nunc. Vestibulum non neque lorem.</p>
+      <p><h4>To register your interest in this event please click on the button below and submit your email address.</h4></p>
+
+      <div id="openModalDiv" style="text-align:center;">
+        <button id="openModal" class="">Register Interest</button>
+      </div>
+
+      <div id="contactDetails">
+        <h3 class="headingText">Contact Details</h3>
+        <p>If you have any other enquires feel free to contact us using the details below.</p>
+        <ul>
+          <li><strong>Phone Number-</strong> +44 1632 96036</li>
+          <li><strong>Email Address-</strong> johndoe@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="registeremailModal" class="emailModal">
+
+      <div class="modal-content">
+        <span class="closeModal">&times;</span>
+        <h3 class="headingText">Please enter you email address below:</h3>
+        <form id="emailForm">
+          <label for="email">Email Address</label><br>
+          <input type="text" class="emailField" id="email" name="email" placeholder="Email Address"><br>
+
+          <input type="submit" class="emailSubmit" id="emailSubmit" value="Submit">
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
+
+
